@@ -13,9 +13,9 @@ export class HomeItem extends Component {
     }
     render() {
         return (
-            <div style = {{width:"100%"}}>
+            <div style = {{width:"25%",float:"left",padding:"5px 10px"}}>
                 <Card
-                    style={{ width: 300 ,float:"left",margin:"10px 8px"}}
+                    style={{ width: "100"}}
                     cover={
                         <img
                             alt="example"
